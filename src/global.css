@@ -4,3 +4,18 @@ body,* {
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
 }
+
+:root{
+  --primary: #37A7AA;
+  --secondary: #094D94;
+  --background: #FFFFFF;
+  --detail: #63628B;
+}
+
+body{
+  height: 100vh;
+}
+
+html{
+  background-color: var(--background);
+}

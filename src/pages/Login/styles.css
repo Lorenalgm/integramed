@@ -1,0 +1,56 @@
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.banner{
+    display: none;
+}
+
+.login-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 70%;
+    margin-bottom: 2em;
+}
+
+.login-content input{
+    text-align: left;
+    margin: 1em 0;
+    padding: 0.7em 4em;
+    border-radius: 8px;
+}
+
+.forgot{
+    width: 22rem;
+    text-align: left;
+    color: var(--detail);
+    margin-bottom: 2em;
+}
+
+.button{
+    background-color: var(--primary);
+    color: var(--background);
+    font-weight: bold;
+    width: 22em;
+    text-align: center;
+    padding: 0.7em 0;
+    border-radius: 8px;
+}
+
+.create-account{
+    color: var(--detail);
+    margin-top: 1em;
+}
+
+.create-account span{
+    color: var(--primary);
+    text-decoration: underline;
+}
