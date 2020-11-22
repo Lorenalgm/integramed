@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
 import profile from '../../assets/profile.png';
+import { Link } from 'react-router-dom';
 
 export default function Menu(){
     return(
@@ -9,9 +10,11 @@ export default function Menu(){
                 <img src={profile} alt="Perfil" />
                 <h2>Anaile Mariane</h2>
             </div>
-            <div className="menu-option">
-                Home
-            </div>
+            <Link to="/dashboard">
+                <div className="menu-option">
+                    Home
+                </div>
+            </Link>
             <div className="menu-option">
                 Médicos
             </div>
