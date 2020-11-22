@@ -1,0 +1,37 @@
+.menu-container{
+    width: 190px;
+    height: 100vh;
+    padding: 2em 1em;
+    background: var(--secondary);
+    color: var(--background);
+    display: none;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.profile img{
+    width: 5em;
+}
+
+.menu-option{
+    padding: 1em 0;
+    transition: 2ms;
+    border-bottom: solid var(--primary) 1px;
+}
+
+.menu-option:hover{
+    color: var(--primary);
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 800px){
+    .menu-container{
+        display: block;
+    }
+}

@@ -2,11 +2,11 @@ import React from 'react';
 import './styles.css';
 import Menu from '../../components/Menu';
 
-export default function Home(){
+export default function Dashboard(){
     return(
-        <div className="home-container">
+        <div className="dashboard-container">
             <Menu />
-            <div className="home-content">
+            <div className="dashboard-content">
                 
             </div>
         </div>
